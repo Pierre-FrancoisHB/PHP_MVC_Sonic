@@ -1,47 +1,38 @@
-# Le Parcours :fire: PHP
+# Petit projet PHP :fire: :smiley:
 
-Vous allez avoir un petit projet à mettre en place. On ne va pas vous dire quoi faire à chaque étape mais vous donner le projet global.
-Lisez bien le sujet, on attend de vous que vous mettiez en place la même structure qu'on a vu ces derniers jours, des contrôleurs, des routes, modèles et des vues.
+This is un first PHP project, achieved with few resources, to test operations with controllers, `AltoRouter`, models and views.
 
-## Au programme
+## Contains :
 
 - classes
-- héritage
-- propriétés
-- méthodes
+- heritage
 - routes
 - _Controllers_
 - _Views_
 - _Models_
 - ...
 
-Bon courage :muscle:
+It has been made with PHP 7.4.9 :muscle:
 
-## Sujet : Sonic :tada:
+## Subjet : Sonic :tada:
 
-> Oui, le petit hérisson qui va vite :smirk:
+> This little site is about the cartoon character  **Sonic**, and it consists in 2 pages :
 
-On souhaite mettre en place un petit site sur **Sonic**, contenant 2 pages :
+- 1 jhomepage with full range of **Sonic** characters, classed by alphabetic order,
+- 1 page containing the 3 firsts **Sonic** video game creators
 
-- 1 page d'accueil avec tous les personnages de l'univers **Sonic**, par ordre alphabétique
-- 1 page avec les 3 créateurs du premier jeu **Sonic**
 
-Mais on ne souhaite pas le faire n'importe comment.  
-Vous avez appris cette saison à bien structurer/organiser votre code et vos fichiers, le tout en programmation orientée objets.  
-Il va falloir appliquer cela sur ce projet.
+### Database
 
-### Base de données
+The small database is provided in the file `docs/sonic.sql` included in the foalder.
 
-La modélisation de la base de données est fournie :
+:warning: tablenames are keywords about SQL langage. To avoid issues, i've surrounded the name with backtick `` ` ``
+Exeaple : ``SELECT * FROM `matable` ``
 
-- [dictionnaire de données](docs/dictionnaire-de-donnees.md)
-- [MCD](docs/parcours-mcd.svg)
-
-La base de données est fournie aussi : [fichier à importer](docs/sonic.sql)
-
-:warning: Attention, le nom des tables sont des mots-clés réservés du langage SQL.  
-Pour éviter les erreurs dans les requêtes SQL, il faut bien entourer le nom par 1 backtick `` ` ``  
-Exemple : ``SELECT * FROM `matable` ``
+An exception for datas needed in the project : datas about the 3 creators of **Sonic** can be founded here :
+ - [Hirokazu Yasuhara](https://fr.wikipedia.org/wiki/Hirokazu_Yasuhara)
+ - [Yuji Naka](https://fr.wikipedia.org/wiki/Yuji_Naka)
+ - [Naoto Ōshima](https://fr.wikipedia.org/wiki/Naoto_%C5%8Cshima)
 
 ### Structure du projet
 
@@ -76,12 +67,9 @@ La qualité du code est encore plus importante dans ce parcours :
 - Les créateurs ne sont pas dans la base de données, on vous demande de les ajouter *en dur*, en HTML dans votre vue !
 - il n'y a qu'une seule page, et cette page affiche les 3 créateurs
 - Pour chaque créateur, afficher un titre de niveau 3 et un beau `lorem ipsum` des familles :sunglasses:
-- Liste des créateurs :
-  - [Hirokazu Yasuhara](https://fr.wikipedia.org/wiki/Hirokazu_Yasuhara)
-  - [Yuji Naka](https://fr.wikipedia.org/wiki/Yuji_Naka)
-  - [Naoto Ōshima](https://fr.wikipedia.org/wiki/Naoto_%C5%8Cshima)
+
 
 ### Bonus
 
-- Vous pouvez vous amusez à rendre votre site assez joli avec CSS
-- Vous pouvez ajouter des pages, laissez parler votre créativité :bulb:
+- I planned improve display with CSS as soon as possible !
+- In the next few weeks, i hope add some others pages to let explain my creativity :bulb:
